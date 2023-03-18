@@ -12,22 +12,34 @@ body {
 
 .top-row {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 10px 150px;
     background-color: antiquewhite;
     color: #1f2937;
+    flex-wrap: wrap;
+    gap: 10px;
+
 }
 
 .top-row-links {
     display: flex;
-    gap: 35px;
+    flex-wrap: wrap;
+    gap: 40px;
 }
+
+
+.top-row-links li:hover {
+    text-decoration: underline;
+}
+
+
 
 .welcome {
     display: flex;
     align-items: center;
-    gap: 200px;
+    flex-wrap: wrap;
+    gap: 100px;
     padding: 0;
     padding: 75px 150px;
     background-color: #1f2937;
@@ -35,17 +47,19 @@ body {
 }
 
 .hero-left {
-    flex: 1 1 auto;
+    flex: 2 1 auto;
     display: flex;
     flex-direction: column;
     gap: 40px;
     align-items: flex-start;
-    width: 800px;
+    width: 600px;
 }
+
 
 .rick {
     width: 300px;
-    flex: 3 2 auto;
+    flex: 3 1 auto;
+    border-radius: 100px;
 }
 
 
@@ -65,8 +79,13 @@ body {
     border-radius: 100px;
 }
 
+
+
 .signUpButton:hover {
-    background-color: #c82e2e;
+    background-color: gold;
+    border-color: #be0000;
+    color: #be0000;
+
 }
 
 .signUpButton:active {
