@@ -33,6 +33,10 @@ body {
     text-decoration: underline;
 }
 
+.underlined {
+    text-decoration: underline;
+
+}
 
 
 .welcome {
@@ -69,14 +73,19 @@ body {
 .signUpButton {
     margin: 0;
     border-width: 5px;
+    padding: 15px 0;
     border-color: aliceblue;
     border-style: solid;
-    padding: 15px 30px;
     color: inherit;
     background-color: #9f2424;
     font-size: 25px;
     font-weight: 700;
     border-radius: 100px;
+}
+
+.signUpButton a {
+    padding: 20px;
+
 }
 
 
