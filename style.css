@@ -202,9 +202,10 @@ a {
     align-self: center;
 }
 
-.last-row-bottom {
+.last-row-right {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer {
