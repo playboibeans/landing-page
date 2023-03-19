@@ -57,6 +57,7 @@ body {
     gap: 40px;
     align-items: flex-start;
     width: 600px;
+    margin: auto;
 }
 
 
@@ -112,4 +113,81 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 50px;
+    margin: 0;
+    font-weight: 500;
+
+}
+
+.info-contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 150px 150px;
+    gap: 60px;
+}
+
+.info-content img {
+    width: 300px;
+    border-radius: 30px;
+}
+
+.info-content {
+    text-align: center;
+
+}
+
+.quote-container {
+    background-color: antiquewhite;
+}
+
+.quote {
+    width: 700px;
+    height: auto;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+.last-row-container {
+    margin: 0;
+    padding: 150px;
+    background-image: url(img/rickroll.gif);
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
+
+.last-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #1f2937;
+    border-radius: 50px;
+    margin: 0;
+    padding: 100px 10px;
+}
+
+.last-row button {
+    align-self: center;
+}
+
+.last-chance {
+    align-self: center;
+}
+
+.last-row-bottom {
+    display: flex;
+    flex-direction: column;
 }
