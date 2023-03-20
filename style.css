@@ -179,6 +179,7 @@ a {
     margin: 0;
     padding: 150px;
     background-image: url(img/rickroll.jpeg);
+    background-attachment: fixed;
     background-position: center;
     background-size: cover;
     background-color: whitesmoke;
